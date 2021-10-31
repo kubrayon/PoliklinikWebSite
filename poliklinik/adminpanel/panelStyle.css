@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.panelForm{
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 30px 35% 0 35%;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+.panelForm form input[type=text], input[type=password], input[type=submit]{
+    width: 70%;
+    height: 25px;
+    margin: 5px 15% 5px 15%;
+    padding: 0;
+    border: 1x solid gray;
+    border-radius: 0;
+}
+
+
+.panelBox{
+    width: 70%;
+    margin: 20px 10% 20px 20%;
+    padding: 10px 10px;
+    border: 2px solid #236b67;
+    background-color:#368f8a;
+    color: #FFF;
+    border-radius: 10px;
+    /* display: none; */
+}
+.panelBox form table input[type=text], input[type=password], select{
+    width: 70%;
+    height: 25px;
+    margin: 5px 15% 5px 5px;
+    padding: 0;
+    border-radius: 2px;
+    border: 0;
+}
+.panelBox form table input[type=submit]{
+    width: 80px;
+    height: 25px;
+    margin: 5px 15% 5px 5px;
+    padding: 0;
+    background-color: #236b67;
+    border: 0;
+    border-radius: 5px;
+    color: #FFF;
+}
+.panelBox form table input[type=submit]:hover{
+    border: 2px solid #236b67;
+    background-color: #368f8a;
+    cursor: hand;
+}
+.panelBox form table{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+.panelBox form table tr{
+    border: 2px solid #236b67;
+}
+.panelBox form table td{
+    border: 2px solid #236b67;
+    color: #FFF;
+    font-size: 18px;
+    padding: 3px 0 3px 5px;
+}
+.panelBox form table th{
+    text-align: left;
+    border: 2px solid #236b67;
+    color: #FFF;
+    font-size: 20px;
+    padding: 3px 0 3px 5px;
+}
+.panelBox h1{
+    text-align: center;
+}
+.panelMenu{
+    width: auto;
+    max-width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#64bebb;
+    z-index: 99;
+}
+.panelMenu:hover{
+    max-width: 200px;
+}
+.panelMenu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.panelMenu ul li{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.panelMenu h3{
+    width: 100%;
+    margin: 0;
+    padding:20px 0px;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    color:#FFF ;
+    border:2px solid transparent;
+}
+.panelMenu button {
+    width: 100%;
+    padding:10px 20px;
+    margin: 0;
+    font-size: 12pt;
+    text-align: left;
+    text-decoration:none;
+    color:#FFF ;
+    background-color:#64bebb;
+    border:2px solid transparent;
+}
+.panelMenu button:hover{
+    font-size: 12pt;
+}
+.panelMenu button:hover{
+    border:2px solid #57a3a1;
+    cursor: hand;
+}
