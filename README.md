@@ -12,7 +12,7 @@
 # --Doktorlar--
 ![resim](https://user-images.githubusercontent.com/89014002/144633330-22fb9ee1-f42c-4668-8952-cad8051573e9.PNG)
 
-# --E-Radevu Ekranı--
+# --E-Randevu Ekranı--
 ![resim](https://user-images.githubusercontent.com/89014002/144633455-1ed69538-324c-422c-bd9a-0f469db4f3d5.PNG)
 
 # --İletişim--
